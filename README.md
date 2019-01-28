@@ -3,7 +3,9 @@ a simple set of string vars defined at compile time to for buildVersion and buil
 
 ## for example
 
-```
+A Makefile might look like...
+
+```makefile
 BIN=example
 HEAD=$(shell git describe --dirty --long --tags 2> /dev/null  || git rev-parse --short HEAD)
 TIMESTAMP=$(shell date '+%Y-%m-%dT%H:%M:%S %z %Z')
