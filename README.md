@@ -1,5 +1,5 @@
 # buildversion
-a simple set of string vars defined at compile time to for buildVersion and buildTimestamp
+a simple set of string vars defined at compile time for buildVersion and buildTimestamp
 
 ## for example
 
