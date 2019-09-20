@@ -1,3 +1,3 @@
-module github.com/henderjon/buildversion
+module github.com/henderjon/built
 
 go 1.13
